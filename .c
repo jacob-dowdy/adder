@@ -9,7 +9,5 @@ int main(void)
     printf("y is ");
     int y = get_int();
     
-    int z = x + y;
-    
-    printf("The sum of x and y is %i\n", z);
+    printf("The sum of x and y is %i\n", x + y);
 }
